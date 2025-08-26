@@ -1,0 +1,6 @@
+.archive
+.steps
+.venv
+.vscode
+.pytest_cache
+__pycache__

@@ -1,0 +1,19 @@
+# OSX
+
+.DS_Store
+
+# Sublime text and scripts
+
+.vscode
+.archive
+.steps
+record.sh
+quaternions.sublime-project
+quaternions.sublime-workspace
+script.txt
+
+# Python
+.venv
+.pytest_cache
+__pycache__
+
