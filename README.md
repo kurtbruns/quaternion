@@ -1,8 +1,8 @@
 # Quaternion
 
-A Python class for demonstrating the use of quaternions for 3D rotations. See the implementation in the `src/quaternion.py` file and the demos which are discussed below.
+A Python class for demonstrating the use of quaternions for 3D rotations. The main event is the implementation of the `Quaternion` class in the `src/quaternion.py` file. There are also some demos which are discussed below.
 
-To see how this class is implemented see [this video](https://youtu.be/hgmLSnVuvcY).
+This repository is a companion to [this video](https://youtu.be/hgmLSnVuvcY) which explains the implementation of the `Quaternion` class and the demos contained in this repository.
 
 ## Installation
 
@@ -130,7 +130,7 @@ After the second drag operation, the Earth is rotated to this orientation.
   <img src="./images/RotateEarthSecondDrag-light-theme.png" alt="Theme-aware image">
 </picture>
 
-In practice, you should calculate and apply the rotation each time the mouse moves during a drag operation. I chose to show one big rotation for demonstration purposes, but the downside of this approach is that the Earth moves in an unexpected manner during an extend drag operation (for example, dragging in a big U shape).
+In practice, it's better to calculate and apply the rotation each time the mouse moves during a drag operation. I chose to show one big rotation for demonstration purposes, but the downside of this approach is that the Earth moves in an unexpected manner during an extend drag operation (for example, dragging in a big U shape).
 
 The benefit of applying small rotations each time the mouse moves during a drag operation is that the Earth moves in a consistent manner at the beginning and end of the drag operation. Because Quaternions are numerically stable, you don't need to worry about accumulating errors and the orientation drifting over time.
 
@@ -214,5 +214,3 @@ When ensuring the shortest path, the Earth rotates along the shorter arc between
   <source media="(prefers-color-scheme: light)" srcset="./images/AnimateShortPath-light-theme.png">
   <img src="./images/AnimateShortPath-light-theme.png" alt="Theme-aware image">
 </picture>
-
-You can also see the code used to generate the animations in the video in this repository. However, it's a bit messy and not well documented.
