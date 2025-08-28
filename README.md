@@ -2,7 +2,9 @@
 
 A Python class for demonstrating the use of quaternions for 3D rotations. The main event is the implementation of the `Quaternion` class in the `src/quaternion.py` file. There are also some demos which are discussed below.
 
-This repository is a companion to [this video](https://youtu.be/hgmLSnVuvcY) which explains the implementation of the `Quaternion` class and the demos contained in this repository.
+This repository is a companion to [this video](https://youtu.be/hZrBGiWkUyk) which explains the implementation of the `Quaternion` class and the demos contained in this repository.
+
+> **Note:** Some examples and documentation in this repository were AI-generated based on the video script and code snippets.
 
 ## Installation
 
